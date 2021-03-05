@@ -1,0 +1,39 @@
+<HTML>
+	<HEAD>
+           <meta charset="UTF-8"> 
+           <link href="estilo.css" rel="stylesheet" type="text/css">
+	   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+           <Title> Reserva</Title>
+	</HEAD>
+
+	<BODY> 
+	   
+	   <img src="SolTravelLogo2.jpg" width="350" height="260" class="center">
+
+    <!-- Formulario con conjunto de campos, leyenda y etiqueta -->
+	   <form action="" method="post">
+	     <fieldset>
+	   	 <legend>Reserva: </legend>
+                 <label for="form_Noches">   .Noches:</Label>
+	         <input name="form_Noches" id="form_Noches" type="number" min="1" max="10" >
+                 <br>
+                 <labelfor="form_Personas">Personas:</Label>
+	         <input name="form_Personas" id="form_Personas" type="number" min="1" max="10" >
+                <br>  <br>
+		 <label for="form_nombres">Nombres:</label>
+                 <textarea id="form_nombres" name="form_nombres" rows="5" cols="50"></textarea>
+                <br>  <br>
+	        <label>Desde:</Label>
+         	<input name="form_date_desde" id="form_date_desde" type="date">
+                <br>
+                <label>Hasta:</Label>
+         	<input name="form_date_hasta" id="form_date_hasta" type="date">
+            </fieldset> 
+     	 </form>
+	 
+           <button>Reservar </button>
+	   <br>
+	   <br>
+
+	</BODY>
+</HTML>
